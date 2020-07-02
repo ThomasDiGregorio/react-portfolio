@@ -32,7 +32,8 @@
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
-    "ajv": "6.12.0",
+    "ajv": "^5.0.0",
+    "ajv-keywords": "^2.1.1",
     "autoprefixer": "^9.1.0",
     "axios": "0.19.2",
     "babel-cli": "^6.26.0",
@@ -43,6 +44,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "chokidar": "^3.4.0",
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.5.2",
     "cross-env": "^5.2.0",
@@ -54,11 +56,10 @@
     "extract-loader": "^2.0.1",
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
     "moment": "^2.27.0",
     "node-sass": "^4.13.1",
     "postcss-loader": "^2.1.6",
-    "react": "16.13.1",
+    "react": "^16.13.1",
     "react-dom": "16.13.1",
     "react-redux": "7.2.0",
     "react-router": "5.1.2",
@@ -79,6 +80,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
     "uglifyjs-webpack-plugin": "^1.2.7"
   }
 }
