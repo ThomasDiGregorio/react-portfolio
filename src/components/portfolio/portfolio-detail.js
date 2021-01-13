@@ -14,13 +14,13 @@ export default class PortfolioDetail extends Component {
     axios.get(
       `https://thomasdigregorio.devcamp.space/portfolio/portfolio_items/${this.props.match.params.slug}`,
       { withCredentials: true }
-        .then((response) => {
-          console.log("res", response);
-        })
-        .catch((error) => {
-          console.log("getportfolioitem error", error);
-        })
-    );
+    )
+      .then((response) => {
+        console.log("res", response);
+      })
+      .catch((error) => {
+        console.log("getportfolioitem error", error);
+      })
   }
 
   render() {
