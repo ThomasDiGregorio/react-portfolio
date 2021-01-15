@@ -4,6 +4,12 @@
   align-items: center;
   position: relative;
 
+  .admin-blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .new-blog-link {
     position: fixed;
     right: 0;
@@ -16,6 +22,8 @@
       margin-right: 15px;
       margin-bottom: 15px;
       transition: 0.5s ease-in-out;
+      margin-left: 15px;
+      cursor: pointer;
 
       &:hover {
         color: $dark-teal;
