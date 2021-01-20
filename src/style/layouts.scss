@@ -34,3 +34,23 @@
     }
   }
 }
+
+.About-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.About-middle-section {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.About-bottom-section {
+  margin: 0;
+  width: 600px;
+}
+
+.About-contact {
+  width: 600px;
+}
